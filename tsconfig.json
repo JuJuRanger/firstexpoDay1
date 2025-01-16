@@ -1,6 +1,12 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    // วิธี config @ path typescript
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
   }
 }

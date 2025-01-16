@@ -2,6 +2,7 @@
   "expo": {
     "name": "firstexpo",
     "slug": "firstexpo",
+    "scheme": "firstexpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb3c8d4b-7359-41c7-ad2e-fad2658e6b2d"
+      }
+    },
+    "owner": "jujuranger",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
